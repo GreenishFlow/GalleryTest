@@ -3,6 +3,8 @@
  */
 package {
 
+import com.greenish.gallery.SmartGalleryContext;
+
 import flash.display.Sprite;
 import flash.display.StageAlign;
 import flash.display.StageScaleMode;
@@ -14,7 +16,7 @@ public class SmartGalleryMain extends Sprite {
     public function SmartGalleryMain() {
         stage.scaleMode = StageScaleMode.NO_SCALE;
         stage.align = StageAlign.TOP_LEFT;
-
+        new SmartGalleryContext(this);
     }
 }
 }
