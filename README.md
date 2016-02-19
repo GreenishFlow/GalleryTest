@@ -1,0 +1,1 @@
+Test gallery on AS3 using BRIC algorithm.
